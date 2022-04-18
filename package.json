@@ -1,7 +1,10 @@
 {
   "name": "tstwi",
+  "author": "Sulaiman Hamouda",
   "version": "0.1.0",
   "description": "A React Icon Library",
+  "license": "MIT",
+  "keywords": ["React Icons", "TypeScript", "TailwindCSS", "Vector Icons"],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "repository": {
@@ -18,8 +21,6 @@
     "test": "jest",
     "lint": "eslint src --ext .ts --ext .tsx"
   },
-  "author": "Sulaiman Hamouda",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
