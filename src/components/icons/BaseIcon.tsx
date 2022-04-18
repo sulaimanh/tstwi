@@ -2,8 +2,20 @@ import React, { FC } from 'react'
 
 export interface BaseIconProps {
   size?: string
-  stroke?: `stroke-${string}-${number}`
-  fill?: `fill-${string}-${number}` | 'fill-black' | 'fill-white'
+  stroke?:
+    | `stroke-${string}-${number}`
+    | 'stroke-black'
+    | 'stroke-white'
+    | 'stroke-inherit'
+    | 'stroke-current'
+    | 'stroke-transparent'
+  fill?:
+    | `fill-${string}-${number}`
+    | 'fill-black'
+    | 'fill-white'
+    | 'stroke-inherit'
+    | 'stroke-current'
+    | 'stroke-transparent'
   className?: string
   onClick?: () => void
   children?: any
