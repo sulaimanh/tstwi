@@ -1,0 +1,21 @@
+import React, { FC } from 'react'
+import { BaseIcon, BaseIconProps } from '../BaseIcon'
+
+export const Printer: FC<BaseIconProps> = ({
+  size,
+  stroke,
+  fill,
+  className,
+  onClick,
+}) => (
+  <BaseIcon
+    viewBox="0 0 20 20"
+    size={size}
+    onClick={onClick}
+    stroke={stroke}
+    fill={fill}
+    className={className}
+  >
+    <path d="M4 16H0V6h20v10h-4v4H4v-4zm2-4v6h8v-6H6zM4 0h12v5H4V0zM2 8v2h2V8H2zm4 0v2h2V8H6z" />
+  </BaseIcon>
+)

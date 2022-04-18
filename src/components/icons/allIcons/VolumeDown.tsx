@@ -1,0 +1,21 @@
+import React, { FC } from 'react'
+import { BaseIcon, BaseIconProps } from '../BaseIcon'
+
+export const VolumeDown: FC<BaseIconProps> = ({
+  size,
+  stroke,
+  fill,
+  className,
+  onClick,
+}) => (
+  <BaseIcon
+    viewBox="0 0 20 20"
+    size={size}
+    onClick={onClick}
+    stroke={stroke}
+    fill={fill}
+    className={className}
+  >
+    <path d="M7 7H3v6h4l5 5V2L7 7zm8.54 6.54l-1.42-1.42a3 3 0 0 0 0-4.24l1.42-1.42a4.98 4.98 0 0 1 0 7.08z" />
+  </BaseIcon>
+)
