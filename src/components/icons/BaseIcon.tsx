@@ -13,9 +13,9 @@ export interface BaseIconProps {
     | `fill-${string}-${number}`
     | 'fill-black'
     | 'fill-white'
-    | 'stroke-inherit'
-    | 'stroke-current'
-    | 'stroke-transparent'
+    | 'fill-inherit'
+    | 'fill-current'
+    | 'fill-transparent'
   className?: string
   onClick?: () => void
   children?: any

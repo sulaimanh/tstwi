@@ -1,7 +1,7 @@
 {
   "name": "tstwi",
   "author": "Sulaiman Hamouda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Icon Library",
   "license": "MIT",
   "keywords": ["React Icons", "TypeScript", "TailwindCSS", "Vector Icons"],
